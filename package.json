@@ -1,0 +1,28 @@
+{
+  "name": "fe-docs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "docsify serve docs",
+    "deploy": "node build.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com"
+  },
+  "author": "coderfuns",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com"
+  },
+  "homepage": "https://github.com",
+  "dependencies": {
+    "docsify-cli": "^4.4.1",
+    "sftp-sync-deploy": "^0.7.1"
+  }
+}
